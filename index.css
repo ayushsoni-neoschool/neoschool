@@ -23,7 +23,6 @@ button {
 
 .main-container {
   position: relative;
-  /* width: 1440px; */
   /* height: 2536px; */
   margin: 0 auto;
   background: #ffffff;
@@ -127,18 +126,21 @@ button {
 .features {
   display: flex;
   align-items: flex-start;
-  /* justify-content: center; */
-  position: relative;
+  justify-content: center;
+  /* position: relative; */
   /* width: 440px; */
   height: 55px;
-  margin: -1px 0 0 7px;
+  /* margin: -1px 0 0 7px; */
   color: #000000;
   font-family: Montserrat, var(--default-font-family);
   font-size: 45px;
   font-weight: 700;
   line-height: 54.855px;
   white-space: nowrap;
-  margin-left: 62px;
+  text-align: center;
+  margin: auto;
+  /* margin-left: 62px; */
+  text-align: left;
   z-index: 3;
 }
 .flex-row-cbb {
@@ -538,7 +540,7 @@ button {
 .flex-row-bb {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
   margin: auto;
   /* text-align: center; */
   position: relative;
@@ -705,7 +707,6 @@ button {
   z-index: 70;
   overflow: hidden;
   border-radius: 18px;
-  margin-left: 72px;
 
   box-shadow: 0 1px 1.5px 0 #d5d5d5;
 }
@@ -846,18 +847,22 @@ button {
   z-index: 79;
 }
 .flex-row-b {
-  position: relative;
-  width: 1211px;
-  height: 360px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top:70px;
+  
+  /* position: relative; */
+  /* width: 1211px; */
+  /* height: 360px; */
   /* margin: 17px 0 0 113px;   */
-  z-index: 16;
+  /* z-index: 16; */
 }
 .pic-15 {
-  position: absolute;
+  /* position: absolute; */
   width: 413px;
   height: 360px;
-  top: 0;
-  left: 360px;
+  
   background: url(./assets/images/6bd04216a43e7ddff662a0bb840eabb63b26af18.png)
     no-repeat center;
   background-size: cover;
@@ -867,7 +872,7 @@ button {
   display: flex;
   align-items: flex-start;
   justify-content: center;
-  position: absolute;
+  /* position: relative; */
   width: 362px;
   height: 86px;
   top: 72px;
@@ -880,15 +885,21 @@ button {
   text-align: center;
   z-index: 4;
 }
+.neoschool-for-teachers-col1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Align items in the y-axis (if necessary) */
+  align-items: center; /* Center items along the x-axis */
+  gap: 40px; /* Space between items on the y-axis */
+}
+
 .studio-title-30 {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
-  position: absolute;
+  /* position: absolute; */
   width: 330px;
-  height: 59.17%;
-  top: 23.61%;
-  left: 68.62%;
+  margin-top: 92px;
   color: #000000;
   font-family: Rubik, var(--default-font-family);
   font-size: 25px;
@@ -898,11 +909,10 @@ button {
   z-index: 16;
 }
 .store-badge {
-  position: absolute;
-  width: 200px;
+  /* position: absolute; */
+  /* width: 200px; */
   height: 75px;
-  top: 219px;
-  left: 81px;
+  
   cursor: pointer;
   background: transparent;
   background: no-repeat center;
@@ -912,28 +922,28 @@ button {
   overflow: hidden;
 }
 .flex-row-efe {
-  position: relative;
-  width: 1222px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
   height: 360px;
+  margin-bottom: 50px;
   /* margin: 0 0 0 100px; */
   z-index: 18;
 }
 .img-16 {
-  position: absolute;
-  width: 30.03%;
-  height: 100%;
+  width: 413px;
+  height: 360px;
   top: 0;
-  left: 32.49%;
+  left: 360px;
   background: url(./assets/images/4b86c43468c92a41c69bca26f17f4c47466890a4.png)
     no-repeat center;
   background-size: cover;
-  z-index: 18;
+  z-index: 15;
 }
 .neoschool-for-students {
   display: flex;
   align-items: flex-start;
   justify-content: center;
-  position: absolute;
   width: 384px;
   height: 86px;
   top: 86px;
@@ -946,11 +956,18 @@ button {
   text-align: center;
   z-index: 7;
 }
+.neoschool-for-students-col1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Align items in the y-axis (if necessary) */
+  align-items: center; /* Center items along the x-axis */
+  gap: 40px; /* Space between items on the y-axis */
+}
 .studio-title-31 {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
-  position: absolute;
+  margin-top: 92px;
   width: 330px;
   height: 64.17%;
   top: 26.67%;
@@ -979,7 +996,6 @@ button {
 }
 .rectangle {
   position: relative;
-  width: 1440px;
   height: 376px;
   /* margin: 108px 0 0 0; */
   background: #071952;
@@ -1031,7 +1047,9 @@ button {
   width: 374px;
   height: 24px;
   top: 125px;
-  left: calc(50% - 681px);
+  left: 39px;
+
+  /* left: calc(50% - 681px); */
   color: #ffffff;
   font-family: Montserrat, var(--default-font-family);
   font-size: 20px;
@@ -1071,8 +1089,8 @@ button {
   justify-content: flex-start;
   position: absolute;
   height: 24px;
-  top: 174px;
-  left: calc(50% - 634px);
+  top: 176px;
+  left: 86px;
   color: #ffffff;
   font-family: Montserrat, var(--default-font-family);
   font-size: 20px;
@@ -1120,3 +1138,41 @@ button {
   text-decoration: none; /* Ensure no underline on hover */
   color: white; /* Maintain white color on hover */
 }
+
+.svg-container {
+  display: flex; /* Enable Flexbox */
+  justify-content: space-evenly; /* Even spacing between and around items */
+  align-items: center; /* Center vertically (if needed) */
+  width: 100%; /* Adjust as necessary */
+  height: 100px; /* Optional: height for the container */
+  margin-top: 70px;
+}
+
+.svg-container img {
+  flex-shrink: 0;
+  width: 330px;
+  height: 185px;
+  /* background: #071952; */
+  z-index: 70;
+  overflow: hidden;
+
+}
+.svg-container1 {
+  display: flex; /* Enable Flexbox */
+  justify-content: space-evenly; /* Even spacing between and around items */
+  align-items: center; /* Center vertically (if needed) */
+  width: 100%; /* Adjust as necessary */
+  height: 100px; /* Optional: height for the container */
+  margin-top: 100px;
+}
+
+.svg-container1 img {
+  flex-shrink: 0;
+  width: 330px;
+  height: 185px;
+  /* background: #071952; */
+  z-index: 70;
+  overflow: hidden;
+
+}
+
