@@ -267,11 +267,19 @@ button {
   z-index: 49;
 }
 
+.text {
+  margin: 170px 0 0 39px;
+  color: white;
+  font-size: 20px;
+  line-height: 1.5;
+  font-family: Arial, sans-serif;
 
-
-
-
-
+}
+.underline-text {
+  color: blue;
+  text-decoration: underline;
+  cursor: pointer;
+}
 
 .studio-title {
   display: flex;
@@ -592,7 +600,7 @@ button {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  margin-top:70px;
+  /* margin-top:30px; */
   margin-bottom: 50px;
   /* margin: 0 0 0 100px; */
   /* z-index: 18; */
@@ -663,7 +671,7 @@ button {
 }
 .rectangle {
   position: relative;
-  height: 376px;
+  height: 400px;
   /* margin: 108px 0 0 0; */
   background: #071952;
   overflow: visible auto;
@@ -702,7 +710,7 @@ button {
   display: block;
   position: relative;
   height: 24px;
-  margin: 186px 0 0 39px;
+  margin: 18px 0 0 39px;
   color: #ffffff;
   font-family: Montserrat, var(--default-font-family);
   font-size: 20px;
@@ -878,21 +886,34 @@ ul li {
   
   .main-container1 {
     position: relative;
-    width: 440px;
+    width: 100%;
     /* height: 465px; */
     margin: 0 auto;
     font-size: 0px;
     background: #ffffff;
     overflow: hidden;
   }
+  .text {
+    color: white;
+    font-size: 20px;
+    line-height: 1.5;
+    font-family: Arial, sans-serif;
+    margin: 170px 0 0 13px;
+    position: relative;
+  }
+  .underline-text {
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+  }
   .ai-platform-schools1 {
     display: flex;
+    margin:auto;
     align-items: flex-start;
     justify-content: center;
     position: relative;
-    width: 440px;
     height: 165px;
-    margin: 157px 0 0 4px;
+    margin: 17px 0 0 4px;
     color: #000000;
     font-family: Montserrat, var(--default-font-family);
     font-size: 45px;
@@ -1020,12 +1041,15 @@ ul li {
 
   .features1 {
     display: flex;
+    margin: auto;
+    margin-top: 63px;
+    margin-bottom: 40px;
     align-items: flex-start;
     justify-content: center;
     position: relative;
     width: 440px;
     height: 49px;
-    margin: 36px 0 0 0;
+    /* margin: 36px 0 0 0; */
     color: #000000;
     font-family: Montserrat, var(--default-font-family);
     font-size: 40px;
@@ -1037,9 +1061,10 @@ ul li {
   }
   .card-task1 {
     position: relative;
+    margin: auto;
     width: 380px;
     height: 185px;
-    margin: 35px 0 0 26px;
+    /* margin: 35px 0 0 26px; */
     background: #071952;
     z-index: 15;
     overflow: hidden;
@@ -1068,7 +1093,6 @@ ul li {
     position: absolute;
     width: 100%;
     height: 100%;
-    top: 0;
     left: 0;
     background: url(./assets/images/0750570b-1306-450d-9f2f-de7ee250e8c2.png)
       no-repeat center;
@@ -1172,10 +1196,13 @@ ul li {
     z-index: 22;
   }
   .card-task-51 {
+    margin: auto;
+    /* margin: a; */
     position: relative;
     width: 380px;
     height: 185px;
-    margin: 23px 0 0 31px;
+    margin-top: 40px;
+    /* margin: 23px 0 0 31px; */
     background: #0b93bc;
     z-index: 27;
     overflow: hidden;
@@ -1271,7 +1298,8 @@ ul li {
     position: relative;
     width: 380px;
     height: 185px;
-    margin: 23px 0 0 31px;
+    margin: auto;
+    margin-top: 40px;
     background: #071952;
     z-index: 35;
     overflow: hidden;
@@ -1420,7 +1448,8 @@ ul li {
     position: relative;
     width: 380px;
     height: 185px;
-    margin: 23px 0 0 34px;
+    margin: auto;
+    margin-top: 40px;
     background: #0b93bc;
     z-index: 48;
     overflow: hidden;
@@ -1569,8 +1598,9 @@ ul li {
     position: relative;
     width: 380px;
     height: 185px;
-    margin: 23px 0 0 34px;
-    background: #071952;
+    margin: auto;
+    margin-top: 40px;
+        background: #071952;
     z-index: 61;
     overflow: hidden;
     border-radius: 18px;
@@ -1719,7 +1749,9 @@ ul li {
     position: relative;
     width: 349px;
     height: 86px;
-    margin: 62px 0 0 46px;
+    /* margin: 62px 0 0 46px; */
+    margin: auto;
+    margin-top: 40px;
     color: #000000;
     font-family: Montserrat, var(--default-font-family);
     font-size: 35px;
@@ -1732,8 +1764,9 @@ ul li {
     position: relative;
     width: 413px;
     height: 341px;
-    margin: 20px 0 0 22px;
-    background: url(./assets/images/6bd04216a43e7ddff662a0bb840eabb63b26af18.png)
+    margin: auto;
+    margin-top: 40px;
+        background: url(./assets/images/6bd04216a43e7ddff662a0bb840eabb63b26af18.png)
       no-repeat center;
     background-size: cover;
     z-index: 6;
@@ -1746,8 +1779,9 @@ ul li {
     position: relative;
     width: 380px;
     height: 221.049px;
-    margin: 0.03px 0 0 38px;
-    color: #000000;
+    margin: auto;
+    margin-top: 40px;
+        color: #000000;
     font-family: Rubik, var(--default-font-family);
     font-size: 25px;
     font-weight: 400;
@@ -1759,8 +1793,9 @@ ul li {
     position: relative;
     width: 200px;
     height: 75px;
-    margin: 51.919px 0 0 125px;
-    background: url(./assets/images/cbaef9b0-8157-41fa-8a93-50562d560a40.png)
+    margin: auto;
+    margin-top: 40px;
+        background: url(./assets/images/cbaef9b0-8157-41fa-8a93-50562d560a40.png)
       no-repeat center;
     background-size: cover;
     z-index: 7;
@@ -1787,8 +1822,9 @@ ul li {
     position: relative;
     width: 376px;
     height: 86px;
-    margin: 19.709px 0 0 32px;
-    color: #000000;
+    margin: auto;
+    margin-top: 40px;
+        color: #000000;
     font-family: Montserrat, var(--default-font-family);
     font-size: 35px;
     font-weight: 700;
@@ -1800,8 +1836,9 @@ ul li {
     position: relative;
     width: 291px;
     height: 293.737px;
-    margin: 20px 0 0 80px;
-    background: url(./assets/images/4b86c43468c92a41c69bca26f17f4c47466890a4.png)
+    margin: auto;
+    margin-top: 40px;
+        background: url(./assets/images/4b86c43468c92a41c69bca26f17f4c47466890a4.png)
       no-repeat center;
     background-size: cover;
     z-index: 12;
@@ -1814,8 +1851,9 @@ ul li {
     position: relative;
     width: 380px;
     height: 195px;
-    margin: 31.263px 0 0 50px;
-    color: #000000;
+    margin: auto;
+    margin-top: 40px;
+        color: #000000;
     font-family: Rubik, var(--default-font-family);
     font-size: 25px;
     font-weight: 400;
@@ -1827,8 +1865,8 @@ ul li {
     position: relative;
     width: 200px;
     height: 75px;
-    margin: 59px 0 0 125px;
-    background: url(./assets/images/bbf777b4-c44a-4b34-9386-75f8ea16f309.png)
+    margin: auto;
+    margin-top: 40px;    background: url(./assets/images/bbf777b4-c44a-4b34-9386-75f8ea16f309.png)
       no-repeat center;
     background-size: cover;
     z-index: 8;
@@ -1836,10 +1874,11 @@ ul li {
   }
   .rectangle1 {
     position: relative;
-    width: 444px;
-    height: 376px;
-    margin: 77px 0 0 0;
-    background: #071952;
+    width: 100%;
+    height: 406px;
+    margin: auto;
+    margin-top: 40px;
+        background: #071952;
     overflow: visible auto;
   }
   .vector-341 {
@@ -1870,7 +1909,7 @@ ul li {
     display: block;
     position: relative;
     height: 24px;
-    margin: 170px 0 0 13px;
+    margin: 10px 0 0 13px;
     color: #ffffff;
     font-family: Montserrat, var(--default-font-family);
     font-size: 20px;
@@ -1879,6 +1918,7 @@ ul li {
     text-align: left;
     white-space: nowrap;
     z-index: 75;
+    /* margin-bottom: 20px; */
   }
   .email1 {
     text-decoration: none; /* Remove underline */
@@ -1974,28 +2014,31 @@ ul li {
     white-space: nowrap;
     z-index: 82;
   }
+  .logoHeader{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    ;
+    
+  }
   .teacher-icon1 {
-    position: absolute;
     width: 70px;
     height: 75px;
-    top: 45px;
-    left: 21px;
+   margin-right: 10px;
     background: url(./assets/images/704fd3e1-3dc2-4760-8c97-357d8c120582.png)
       no-repeat center;
     background-size: cover;
     z-index: 1;
   }
   .vector-371 {
-    position: absolute;
-    width: 275px;
-    height: 40px;
-    margin-top: 53px;
-    top: 50%;
-    left: 50%;
+    /* position: ; */
+    width: 280px;
+    height:40.3px;
+    
+    /* margin-top: 53px; */ 
     background: url(./assets/images/14b69927-b42e-4320-a6c5-2ace0347a1d3.png)
       no-repeat center;
     background-size: cover;
-    transform: translate(-37.82%, -5078.75%);
     z-index: 13;
   }
   
